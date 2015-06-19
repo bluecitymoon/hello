@@ -1,0 +1,66 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "products",
+            "relationshipNameCapitalized": "Products",
+            "relationshipFieldName": "product",
+            "otherEntityName": "product",
+            "relationshipType": "one-to-many",
+            "otherEntityNameCapitalized": "Product",
+            "otherEntityRelationshipName": "store"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Name",
+            "fieldNameUnderscored": "name",
+            "fieldInJavaBeanMethod": "Name",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "address",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Address",
+            "fieldNameUnderscored": "address",
+            "fieldInJavaBeanMethod": "Address",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "x",
+            "fieldType": "Long",
+            "fieldNameCapitalized": "X",
+            "fieldNameUnderscored": "x",
+            "fieldInJavaBeanMethod": "X",
+            "fieldValidate": false
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "y",
+            "fieldType": "Long",
+            "fieldNameCapitalized": "Y",
+            "fieldNameUnderscored": "y",
+            "fieldInJavaBeanMethod": "Y",
+            "fieldValidate": false
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOwnerOneToOne": false,
+    "fieldsContainOneToMany": true,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": false,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": false,
+    "fieldsContainDate": false,
+    "changelogDate": "20150619060951",
+    "dto": "no",
+    "pagination": "pager",
+    "validation": true
+}

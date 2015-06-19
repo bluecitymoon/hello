@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "hello",
+    "packageName": "com.jerry.hello",
+    "packageFolder": "com/jerry/hello",
+    "authenticationType": "xauth",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "enableTranslation": false,
+    "rememberMeKey": "ad8cd61cd92f8a04595479497d7e69a47aacb391"
+  }
+}

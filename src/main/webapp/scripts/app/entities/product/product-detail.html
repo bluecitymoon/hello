@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span>Product</span> {{product.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span>Name</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{product.name}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Price</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{product.price}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>ExpireDate</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{product.expireDate}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>products</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{product.products.name}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="product"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+</div>
